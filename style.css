@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hiddenq;
+}
+.container{
+    margin: 0 auto;
+    width: 1294px;
+    height: 100vh;
+    background-image: url(image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#card{
+    
+    width: 479 px;
+    height:497 px;
+    margin-right: 53px;
+    border-radius: 27px;
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    /* opacity: 0.5; */
+    background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
+    /* backdrop-filter: blur(30px); */
+    display: flex;
+    flex-direction : column;
+    gap: 10px;   
+}
+#login{
+    color: #FFF;
+    font-family: Iceland;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#line{
+    width: 110px;
+    height: 1px;
+    background: #FFF;
+    margin-left: 30px;
+}
+#onboard{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 30px;
+    /* margin-top: 5px; */
+}
+.labels{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.input_{
+    width: 419px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    opacity: 0.5;
+    background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
+    backdrop-filter: blur(30px);
+    margin-left: 30px; ;
+}
+#bhula{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 180px;
+}
+button{
+    width: 419px;
+    height: 50px;
+    border-radius: 7px;
+    background: #A5D9D0;
+    color: #000;
+    font-family: Iceland;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+#last_cheej{
+    margin: 0 auto;
+    color: #fffffffb;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+#regi{
+    color: #ffffff;
+font-family: Montserrat;
+font-size: 15px;
+font-style: bold;
+font-weight: 700;
+line-height: normal;
+}
+#top_left_circle{
+    width: 277.821px;
+    height: 170.3px;
+    transform: rotate(-8.062deg);
+    border-radius: 277.821px;
+    border: 1px solid #FFF;
+    opacity: 0.2;
+    position: absolute;
+    top: -55px;
+    left: 50px;
+}
+#top_right_circle{
+    width: 284px;
+    height: 284px;
+    border-radius: 284px;
+    border: 1px solid #FFF;
+    opacity: 0.2;
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+#bottom{
+    width: 209px;
+    height: 209px;
+    border-radius:284px ;
+    stroke-width: 1px;
+    border: 1px solid #FFF;
+    opacity: 0.2;
+    position: absolute;
+    bottom: -50px; 
+    right: 500px;
+
+}
+#top_svg{
+    width: 122px;
+height: 122px;
+fill: #FFF;
+
+opacity: 0.2;
+position: absolute;
+top: -30px;
+left: 50%;
+}
